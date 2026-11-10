@@ -1,0 +1,16 @@
+{
+  "model": "fall_cnn_pilot_v1",
+  "dataset": "BITS-2",
+  "sensor": "acg",
+  "sampling_hz_assumed": 20,
+  "window_size": 40,
+  "input_channels": [
+    "ax",
+    "ay",
+    "az"
+  ],
+  "normalization": "clip(m/s2 / 9.80665, -8, 8)",
+  "threshold": 0.5,
+  "fall_labels": "peak-centered candidates",
+  "test_set_used": false
+}

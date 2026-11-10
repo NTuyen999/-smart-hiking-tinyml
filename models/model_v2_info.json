@@ -1,0 +1,21 @@
+{
+  "model": "fall_cnn_pilot_v2",
+  "training_data": "train_v2.csv",
+  "validation_data": "validation.csv",
+  "sensor": "acg",
+  "channels": [
+    "ax",
+    "ay",
+    "az"
+  ],
+  "window_size": 40,
+  "assumed_sampling_hz": 20,
+  "normalization": "clip(x / 9.80665, -8, 8)",
+  "fall_labels": "peak-centered candidates",
+  "test_set_used": false,
+  "seed": 2026,
+  "train_samples": 2795,
+  "validation_samples": 229,
+  "parameters": 1001,
+  "epochs_completed": 29
+}

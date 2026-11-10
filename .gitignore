@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.zip
+full_dataset/
+Dataset/
+data/
+*.apk
