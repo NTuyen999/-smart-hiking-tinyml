@@ -8,3 +8,5 @@ full_dataset/
 Dataset/
 data/
 *.apk
+
+/_audit_v1/

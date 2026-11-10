@@ -30,4 +30,5 @@ Experimental models only.
 ESP32 integration and real-world validation are pending.
 
 ## Reproducibility note
-The original v1 data preparation and training scripts are not yet included. The current repository records the pilot models, v2 preparation/training scripts and validation results. Full reproducibility and final test evaluation are pending.
+V1 preprocessing and training scripts are now included. The reconstructed preprocessing matches all 1,629 original windows within a tolerance of 1e-4. Exact retraining results are not guaranteed. FALL labels remain peak-centered candidates; final independent testing and ESP32 validation are pending.
+
